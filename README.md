@@ -24,7 +24,7 @@ No apps. No cloud. Just a camera.
 - 16MP autofocus sensor (Arducam IMX519)
 - RAW (DNG) + JPG capture
 - Full manual controls: Shutter (30s–1/4000), ISO (100–3200), WB, EV
-- Autofocus modes: AF-C (continuous), AF-S (single), MF (manual)
+- Autofocus modes: AF-C (continuous with lock), AF-S (single shot), MF (manual)
 
 **Film Simulations**
 - **SATURNIX** — signature preset: golden light, anime-style rendering, indigo shadows, bloom
@@ -67,6 +67,10 @@ No apps. No cloud. Just a camera.
 | Power | USB-C / PiSugar2 battery (optional) |
 
 **Buttons:** 5× mechanical switches — Left, Right, Select, Capture, Focus
+
+### 3D Printed Case
+
+STL files for the camera case are available in the [`hardware/`](hardware/) directory.
 
 ---
 
@@ -113,6 +117,20 @@ Add your photos here:
 
 ---
 
+## Licensing
+
+This project uses a **dual license** model:
+
+| What | License | Commercial use |
+|---|---|---|
+| **Firmware** (Python code) | [MIT License](LICENSE) | Requires permission ([details](LICENSE-COMMERCIAL.md)) |
+| **Hardware** (STL, 3D models) | [CC BY-NC-SA 4.0](hardware/LICENSE-HARDWARE.md) | Requires permission |
+
+**Personal, educational, and non-commercial use** — fully free and open.
+**Commercial use** — contact [@Yutani140x](https://github.com/Yutani140x) for licensing.
+
+---
+
 ## Support the Project
 
 SATURNIX is a passion project built in spare time. If you find it interesting, consider supporting its development:
@@ -124,14 +142,6 @@ SATURNIX is a passion project built in spare time. If you find it interesting, c
 -->
 
 ⭐ **Star this repo** to follow the development!
-
----
-
-## License
-
-This project is licensed for **personal and non-commercial use only.**
-Commercial use requires written permission from the author.
-See [LICENSE](LICENSE) for details.
 
 ---
 
