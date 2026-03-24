@@ -1,2 +1,136 @@
-# saturnix-camera
-Retro-futuristic open-source camera with custom hardware and film-like rendering
+# SATURNIX
+
+### Open-source digital camera with film simulation
+
+<!--
+![SATURNIX Camera](docs/hero.jpg)
+-->
+
+> 🚧 **Firmware release coming soon.** Star this repo to get notified.
+
+---
+
+## What is SATURNIX?
+
+SATURNIX is a DIY digital camera built on Raspberry Pi Zero 2W with a 16MP autofocus sensor, 2" LCD viewfinder, and built-in film simulation engine. It shoots RAW+JPG and processes photos on-device with cinematic color profiles — from Kodak Gold to a custom anime-inspired preset.
+
+No apps. No cloud. Just a camera.
+
+---
+
+## Features
+
+**Camera**
+- 16MP autofocus sensor (Arducam IMX519)
+- RAW (DNG) + JPG capture
+- Full manual controls: Shutter (30s–1/4000), ISO (100–3200), WB, EV
+- Autofocus modes: AF-C (continuous), AF-S (single), MF (manual)
+
+**Film Simulations**
+- **SATURNIX** — signature preset: golden light, anime-style rendering, indigo shadows, bloom
+- **Kodak Gold 400** — warm, vintage, creamy tones
+- **Kodak Ektar 100** — hyper-saturated, razor sharp, deep colors
+- **Fujifilm 400** — cool greens, balanced tones
+- **Kodak Tri-X 400** — classic black & white, deep blacks, rich grain
+- **VHS** — lo-fi tape look: scanlines, chromatic aberration, noise
+
+**Interface**
+- 2" LCD live preview at 320×240
+- Auto-hide UI (clean viewfinder after 15s)
+- Live histogram with exposure traffic light
+- Composition grids (Thirds, Golden Ratio, Cross)
+- AF indicator with auto-detection
+- CPU temperature & storage monitoring
+- Persistent settings (survive reboot)
+
+**Connectivity**
+- Built-in WiFi hotspot for photo transfer
+- Retro terminal-style web gallery
+- No internet required — direct device-to-phone
+
+**Audio**
+- Passive buzzer feedback for all actions
+- Customizable: shutter, focus, navigation, startup sounds
+- Mute mode
+
+---
+
+## Hardware
+
+| Component | Model |
+|---|---|
+| Board | Raspberry Pi Zero 2W |
+| Sensor | Arducam IMX519 16MP Autofocus |
+| Display | Waveshare 2" IPS LCD (240×320, SPI) |
+| Audio | Passive buzzer (MH-FMD) on GPIO |
+| Storage | microSD (32GB+) |
+| Power | USB-C / PiSugar2 battery (optional) |
+
+**Buttons:** 5× mechanical switches — Left, Right, Select, Capture, Focus
+
+---
+
+## Film Samples
+
+<!--
+Add your photos here:
+![SATURNIX preset](docs/sample_saturnix.jpg)
+![Kodak Gold](docs/sample_gold.jpg)
+![Tri-X 400](docs/sample_trix.jpg)
+-->
+
+> 📸 Sample photos coming soon
+
+---
+
+## Roadmap
+
+- [x] Live preview + full manual controls
+- [x] RAW+JPG capture with sequential naming
+- [x] Film simulation engine (6 presets)
+- [x] Live histogram + exposure indicator
+- [x] Composition grids
+- [x] WiFi photo transfer (hotspot + web gallery)
+- [x] Auto-hide UI
+- [x] Persistent settings
+- [x] Buzzer audio feedback
+- [x] Gallery with DNG support
+- [ ] Battery indicator (PiSugar2)
+- [ ] Status LED
+- [ ] Web-based configurator
+- [ ] Firmware update via USB
+- [ ] Pre-built SD card image
+
+---
+
+## Installation
+
+> ⏳ Pre-built image and installation guide will be available with the first public release.
+
+---
+
+## Support the Project
+
+SATURNIX is a passion project built in spare time. If you find it interesting, consider supporting its development:
+
+<!-- Uncomment and add your links:
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/YOUR_USERNAME)
+
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/YOUR_USERNAME)
+-->
+
+⭐ **Star this repo** to follow the development!
+
+---
+
+## License
+
+This project is licensed for **personal and non-commercial use only.**
+Commercial use requires written permission from the author.
+See [LICENSE](LICENSE) for details.
+
+---
+
+**Created by Bohdan Khmyz**
+
+*SATURNIX — a camera that feels like film.*
