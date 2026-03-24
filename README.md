@@ -76,12 +76,25 @@ STL files for the camera case are available in the [`hardware/`](hardware/) dire
 
 ## Film Samples
 
-<!--
-Add your photos here:
-![SATURNIX preset](docs/sample_saturnix.jpg)
-![Kodak Gold](docs/sample_gold.jpg)
-![Tri-X 400](docs/sample_trix.jpg)
--->
+<p align="center">
+  <img src="docs/0_filter.jpg">
+</p>
+
+<p align="center">
+  <img src="docs/gold.jpg">
+</p>
+
+<p align="center">
+  <img src="docs/TriX.jpg">
+</p>
+
+<p align="center">
+  <img src="docs/Fuji.jpg">
+</p>
+
+<p align="center">
+  <img src="docs/Saturnix.jpg">
+</p>
 
 > 📸 Sample photos coming soon
 
