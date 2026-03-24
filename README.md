@@ -120,25 +120,30 @@ STL files for the camera case are available in the [`hardware/`](hardware/) dire
 ---
 
 ## Film Samples
+
 No filter
 <p align="center">
   <img src="docs/0_filter.jpg" width="400">
 </p>
+
 
 Kodak Gold
 <p align="center">
   <img src="docs/gold.jpg" width="400">
 </p>
 
+
 Fuji
 <p align="center">
   <img src="docs/fuji.jpg" width="400">
 </p>
 
+
 Kodak Tri-X
 <p align="center">
   <img src="docs/TriX.jpg" width="400">
 </p>
+
 
 Saturnix film **(in development)**
 <p align="center">
